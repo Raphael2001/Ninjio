@@ -1,0 +1,185 @@
+Prompt 1:
+i have a task to do
+
+i need to build a platform that let users post a feature and upvote others
+
+---
+
+Prompt 2:
+i think it will be better with web app using next.js, i need to use a db, lets local say my sql will be just fine
+i am going to use api with python with Flask
+
+each user will have to register with  full name, email and password
+or login with is username and password
+and he can create a new post or just see all the other posts
+
+---
+
+Prompt 3:
+lets start with the flask api
+please provide me am project with crud api and local db
+
+---
+
+Prompt 4:
+can i use sql lite?
+
+---
+
+Prompt 5:
+i still need the mysqlclient client?
+
+---
+
+Prompt 6:
+ok
+now lets create the frontend
+
+give me react or next,js code using  typescript
+
+---
+
+Prompt 7:
+on the python server i am getting cors errors
+
+canyou help me fix it
+there is a package for it
+
+---
+
+Prompt 8:
+the cors is on the option request
+
+it is happing becuase of the method allow
+
+---
+
+Prompt 9:
+now i am getting 
+415 UNSUPPORTED MEDIA TYPE
+
+---
+
+Prompt 10:
+never mind
+i found the issusu
+
+---
+
+Prompt 11:
+in the login method in the server i ma getting 
+
+AttributeError: 'bytes' object has no attribute 'check_password_hash'
+
+---
+
+Prompt 12:
+i am getting 
+"Subject must be a string"
+
+on the post features
+
+---
+
+Prompt 13:
+each user can only vote once for each pieace
+
+i want to get an error whn trying to vote again
+
+---
+
+Prompt 14:
+now lets work on the ui
+
+i want to have in the main page login or register screen
+with some style
+
+and this will tigger the right function
+
+---
+
+Prompt 15:
+btw i am usign yarn
+
+---
+
+Prompt 16:
+can. you give me full package.json file
+
+{
+  "name": "feature-vote-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^15.4.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.0.14",
+    "@types/react": "19.1.8",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.0.0"
+  }
+}
+
+---
+
+Prompt 17:
+It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+
+---
+
+Prompt 18:
+can you style better the login / register page?
+
+---
+
+Prompt 19:
+can i do it without the post css?
+
+---
+
+Prompt 20:
+never mind
+lets stey with tailwinf and post css
+but it still does not work...
+i do not see any style
+
+do i need to do anything more
+
+---
+
+Prompt 21:
+after successfully log in or register i want to go the features page
+
+---
+
+Prompt 22:
+we will need to create a token after register as well in the backend
+
+---
+
+Prompt 23:
+now please style the features page
+and block enterance to  users without token, redirect to login page
+please notice - my api domain is http://127.0.0.1:5000
+
+---
+
+Prompt 24:
+are there more egde cases that i forgot to handle?
+
+---
+
+Prompt 25:
+i want to block the case when submitting empty form
+disbale the button and dont allow clicks
